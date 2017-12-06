@@ -1,6 +1,3 @@
-
-import webbrowser
-
 class Movie():
 		""" 
 		Movie Class Attributes:
@@ -16,6 +13,3 @@ class Movie():
 			self.poster_image_url = poster_image
 			self.trailer_youtube_url = trailer_youtube
 			self.year = year
-
-		def show_trailer(self):
-			webbrowser.open(self.trailer_youtube_url)

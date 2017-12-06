@@ -45,7 +45,7 @@ insidious = media.Movie("Insidious",
 
 
 # intances list
-movies = [ gladiator, the_bourne_identity, fifty_first_dates, forrest_gump, the_equalizer, john_wick, wonder_woman, insidious]
+movies = [gladiator, the_bourne_identity, fifty_first_dates, forrest_gump, the_equalizer, john_wick, wonder_woman, insidious]
 
 # Generate a web page that displays the movies in the list
 fresh_tomatoes.open_movies_page(movies)
